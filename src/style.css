@@ -65,4 +65,11 @@ table {
   background-color: mediumpurple;
 }
 
+#layout {
+  border-style: double;
+  border-color: purple;
+  border-width: 20px;
+  background-color: aqua;
+}
+
 /*# sourceMappingURL=style.css.map */
