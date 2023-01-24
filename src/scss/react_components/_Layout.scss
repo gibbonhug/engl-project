@@ -3,7 +3,12 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
+
+    // both layout1 and layout 2
+    div {
+        height: 100vh;
+        overflow: scroll;
+    }
 
     .layout1 {
         background-color: olive;

@@ -62,7 +62,10 @@ table {
   background-color: aqua;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+#layout div {
   height: 100vh;
+  overflow: scroll;
 }
 #layout .layout1 {
   background-color: olive;
