@@ -1,6 +1,15 @@
 #layout {
-    border-style: double;
-    border-color: purple;
-    border-width: 20px;
     background-color: aqua;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+
+    .layout1 {
+        background-color: olive;
+    }
+
+    .layout2 {
+        background-color: tomato;
+    }
 }

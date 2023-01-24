@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <Layout
-        content1={<Main></Main>}
-        content2={<Media text='lhdsfkasjdhgag'></Media>}
+        content1={<Main class='layout1'></Main>}
+        content2={<Media class='layout2' text='Item 1'></Media>}
       ></Layout>
       <Cited></Cited>
     </>
