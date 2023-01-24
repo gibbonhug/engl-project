@@ -1,10 +1,13 @@
 import React from 'react';
+import Cited from './Cited';
+import Main from './Main';
 
 function App() {
   return (
-    <div className="App">
-      Umm Hi
-    </div>
+    <>
+      <Cited />
+      <Main></Main>
+    </>
   );
 }
 
