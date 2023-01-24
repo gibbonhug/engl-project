@@ -4,6 +4,6 @@ interface MediaProps {
 
 export default function Media(props: MediaProps) {
     return (
-        <div>{props.text}</div>
+        <div className='media'>{props.text}</div>
     )
 }
