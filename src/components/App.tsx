@@ -9,8 +9,9 @@ function App() {
     <>
       <Layout
         content1={<Main></Main>}
-        content2={<Cited></Cited>}
+        content2={<Media text='lhdsfkasjdhgag'></Media>}
       ></Layout>
+      <Cited></Cited>
     </>
   );
 }
